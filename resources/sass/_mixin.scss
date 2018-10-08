@@ -1,0 +1,33 @@
+@mixin setDivOutline($switch) {
+
+    @if $switch{
+        outline: 1px dashed gold;
+    }else{
+        outline:  none;
+    }
+
+}
+
+@each $prop, $abbrev in (margin: m, padding: p) {
+    @each $multiple in (0, 5, 6, 7, 10, 15, 20, 25 ,30, 32, 50, 100, 150) {
+      $length:    $multiple;
+      $length-x:  $multiple * 1px;
+      $length-y:  $multiple * 1px;
+
+      .#{$abbrev}-#{$length} { #{$prop}:         $length-y $length-x !important; }
+      .#{$abbrev}t-#{$length} { #{$prop}-top:    $length-y !important; }
+      .#{$abbrev}r-#{$length} { #{$prop}-right:  $length-x !important; }
+      .#{$abbrev}b-#{$length} { #{$prop}-bottom: $length-y !important; }
+      .#{$abbrev}l-#{$length} { #{$prop}-left:   $length-x !important; }
+
+      .#{$abbrev}x-#{$length} {
+        #{$prop}-right:  $length-x !important;
+        #{$prop}-left:   $length-x !important;
+      }
+
+      .#{$abbrev}y-#{$length} {
+        #{$prop}-top:    $length-y !important;
+        #{$prop}-bottom: $length-y !important;
+      }
+    }
+  }
