@@ -1,5 +1,24 @@
 {
+    "/js/backend/app.js": "/js/backend/app.js",
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/canvas-nest/canvas-nest.js": "/canvas-nest/canvas-nest.js"
+    "/css/backend/app.css": "/css/backend/app.css",
+    "/canvas-nest/canvas-nest.js": "/canvas-nest/canvas-nest.js",
+    "/css/bootstrap3/bootstrap-theme.css": "/css/bootstrap3/bootstrap-theme.css",
+    "/css/bootstrap3/bootstrap.css": "/css/bootstrap3/bootstrap.css",
+    "/css/adminLTE/AdminLTE.css": "/css/adminLTE/AdminLTE.css",
+    "/css/adminLTE/_all-skins.min.css": "/css/adminLTE/_all-skins.min.css",
+    "/css/ionicons/ionicons.min.css": "/css/ionicons/ionicons.min.css",
+    "/css/fonts/ionicons.eot": "/css/fonts/ionicons.eot",
+    "/css/fonts/ionicons.svg": "/css/fonts/ionicons.svg",
+    "/css/fonts/ionicons.ttf": "/css/fonts/ionicons.ttf",
+    "/css/fonts/ionicons.woff": "/css/fonts/ionicons.woff",
+    "/css/fonts/ionicons.woff2": "/css/fonts/ionicons.woff2",
+    "/css/fontawesome/font-awesome.min.css": "/css/fontawesome/font-awesome.min.css",
+    "/css/fonts/fontawesome-webfont.eot": "/css/fonts/fontawesome-webfont.eot",
+    "/css/fonts/fontawesome-webfont.svg": "/css/fonts/fontawesome-webfont.svg",
+    "/css/fonts/fontawesome-webfont.ttf": "/css/fonts/fontawesome-webfont.ttf",
+    "/css/fonts/fontawesome-webfont.woff": "/css/fonts/fontawesome-webfont.woff",
+    "/css/fonts/fontawesome-webfont.woff2": "/css/fonts/fontawesome-webfont.woff2",
+    "/css/fonts/FontAwesome.otf": "/css/fonts/FontAwesome.otf"
 }

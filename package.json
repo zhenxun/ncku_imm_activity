@@ -20,9 +20,14 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
+        "admin-lte": "^2.4.8",
         "ajv": "^6.5.4",
+        "bootstrap3": "^3.3.5",
         "bulma": "^0.7.1",
         "canvas-nest.js": "^2.0.3",
-        "imagemin": "^5.3.1"
+        "fontawesome": "^4.7.2",
+        "imagemin": "^5.3.1",
+        "ionicons": "^4.4.4",
+        "jvectormap-next": "^3.0.0"
     }
 }

@@ -4,10 +4,18 @@ namespace App\Http\Controllers\Frontend;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\FrontendController;
+use App\Models\News;
 
 
 class NewsController extends FrontendController
 {
+    protected $news;
+
+    public function __construct(News $news)
+    {
+        $this->news = $news;
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -15,7 +23,8 @@ class NewsController extends FrontendController
      */
     public function index()
     {
-        return view('pages.news.index');
+        $news = $this->news->orderBy('created_at', 'desc')->get();
+        return view('pages.news.index', compact('news'));
     }
 
     /**
