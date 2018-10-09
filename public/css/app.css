@@ -11519,6 +11519,7 @@ hr {
   padding: 10px 25px;
   z-index: 9999 !important;
   background-color: antiquewhite;
+  margin: 20px 10px;
 }
 
 .news-box > .title {
@@ -11526,10 +11527,17 @@ hr {
   letter-spacing: 1px;
   padding-bottom: 25px;
   border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+  font-size:22px;
 }
 
 .news-box > .content {
   padding-left: 12px;
+  max-width:100%;
+  word-break: break-word;
+}
+
+.news-box > .content h2{
+  font-size: 1.5em !important;
 }
 
 @media (max-width: 768px) {
@@ -11559,4 +11567,6 @@ hr {
 .navbar-burger {
   height: 4.75rem !important;
 }
+
+
 

@@ -24,7 +24,7 @@
         <a class="navbar-item" href="http://imm.med.ncku.edu.tw/imm_activity/public/">
         <img src="{{ asset('images/2018.png') }}">
         <strong>
-            年分子醫學新境界研討會暨20週年所慶校友會娘家
+            年分醫所20週年活動
         </strong>
         </a>
 
