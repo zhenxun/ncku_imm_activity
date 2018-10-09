@@ -11552,7 +11552,7 @@ hr {
 
 @media (min-width: 769px) {
   .mobile-hidden {
-    display: block;
+    display: flex;
   }
 
   .desktop-hidden {
