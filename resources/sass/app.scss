@@ -134,5 +134,33 @@ hr{
 
 }
 
+@media (max-width: 768px) {
+  .mobile-hidden{
+    display:none;
+  }
+
+  .desktop-hidden{
+    display: block;
+  }
+}
+
+@media (min-width: 769px){
+  .mobile-hidden{
+    display: block;
+  }
+
+  .desktop-hidden{
+    display: none;
+  }
+}
+
+.navbar-item img{
+  max-height: 3.5rem !important;
+}
+
+.navbar-burger{
+  height: 4.75rem !important;
+}
+
 
 
